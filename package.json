@@ -1,15 +1,27 @@
 {
   "name": "xx-admin",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "潇潇管理系统",
+  "author": "X-yiyu",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/X-yiyu/XX-admin"
+  },
   "dependencies": {
-    "vue": "^3.2.37"
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.9",
+    "js-cookie": "^3.0.1",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.16",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.0",
